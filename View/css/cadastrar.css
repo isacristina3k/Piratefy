@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+#background {
+    background-image: url("../img/burst-1.png");
+    background-position: center;
+    background-size: cover;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+#loginContainer * {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    line-height: 1em;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#loginContainer {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1024px;
+}
+
+/*change placeholder color all browsers*/
+::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: white;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: white;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: white;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: white;
+}
+
+::placeholder {
+    /* Most modern browsers support this now. */
+    color: white;
+}
+
+/*------------------------------------------------------------------*/
+
+#inputContainer {
+    width: 400px;
+    padding: 45px;
+    float: left;
+    border-right: 1px solid rgba(128, 128, 128, 0.767);
+    margin-top: 20px;
+    height: 50%;
+}
+
+#inputContainer h2 {
+    text-align: center;
+}
+
+.row {
+    border-bottom: 1px solid white;
+}
+
+#inputContainer input[type="text"],
+#inputContainer input[type="email"],
+#inputContainer input[type="password"] {
+    display: block;
+    background-color: transparent;
+    border: 0;
+    height: 27px;
+    line-height: 27px;
+    width: 90%;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+#inputContainer label {
+    color: rgb(148, 148, 148);
+    font-size: 13px;
+    position: absolute;
+    margin-right: 250px;
+}
+
+#inputContainer button {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 250px;
+    color: white;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin: 20px auto;
+    transition: .2s linear;
+    height: 41px;
+    width: 100%;
+    font-weight: bold;
+}
+
+#inputContainer button:hover {
+    cursor: pointer;
+    background-color: rgba(139, 139, 139, 0.486);
+}
+
+#inputContainer .errorMessage {
+    color: rgb(15, 182, 224);
+    font-size: 12px;
+    display: block;
+}
+
+.possuiConta {
+    text-align: center;
+}
+
+.possuiConta span {
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#cadastroForm,
+#loginForm {
+    display: none;
+}
+
+#textoLogin {
+    padding: 45px;
+    display: table-cell;
+}
+
+#textoLogin h1 {
+    color: rgb(15, 182, 224);
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#textoLogin h2 {
+    margin: 35px 0;
+}
+
+#textoLogin ul {
+    padding: 0;
+}
+
+#textoLogin li {
+    font-size: 20px;
+    list-style-type: none;
+    padding: 5px 30px;
+    background: url(../img/icons/checkmark.png) no-repeat 0 0;
+}
+
+.pass-icon {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#toggle {
+    position: absolute;
+    top: 46%;
+    right: 680px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+#toggle2 {
+    position: absolute;
+    top: 95%;
+    right: 680px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+#toggle3 {
+    position: absolute;
+    top: 107%;
+    right: 680px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
